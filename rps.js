@@ -71,7 +71,7 @@ function playRound(humanChoice, computerChoice) {
     }
 
 }
-
+function playGame(){
 for(let i=1;i<=5;i++){
 console.log(`round ${i}:\n-----------------`);
 playRound(getHumanChoice(),getComputerChoice());
@@ -85,3 +85,5 @@ if (humanScore>computerScore){
 }else{
     console.log("its a tie!!");
 }
+}
+playGame();
